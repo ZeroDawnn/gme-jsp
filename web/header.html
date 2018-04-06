@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Gestion de la Mobilites des Etudiants</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-xs-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="DemandesMobilitesController?action=all">
+                                Demandes de Mobilites
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DemandesFinancieresController?action=all">
+                                Demandes Financieres
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DemandesMobilitesController?action=byStudent">
+                                Consultation DemMob
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DemandesFinancieresController?action=byContract">
+                                Consultation DemFin
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="GlobalController?action=progCont">
+                                Consultation Prog/Cont
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <main class="col-xs-9">
